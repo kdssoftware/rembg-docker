@@ -1,0 +1,4 @@
+FROM python:3.6-slim
+RUN pip3 install rembg
+CMD ["rembg-server"]
+EXPOSE 5000
